@@ -1,0 +1,13 @@
+# This is an example configuration file.
+# Copy to application.properties and fill in your values.
+
+spring.datasource.url= SQL connection url will be written here
+spring.datasource.username= SQL username
+spring.datasource.password= SQL password
+
+spring.jpa.hibernate.ddl-auto=update
+spring.jpa.show-sql=true
+
+server.port=8080
+jwt.secret= minimum 32-bit random key will be written here
+logging.level.org.springframework.security=DEBUG
